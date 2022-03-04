@@ -15,7 +15,6 @@ const Body: React.FC<BodyProps> = ({ size = 'small', variant = 'thin', children,
 };
 
 const StyledBody = styled.p<{ $size?: BodyProps['size']; $variant?: BodyProps['variant'] }>`
-	line-height: 1.4;
 	margin: 0;
 
 	${(props) =>

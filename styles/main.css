@@ -39,7 +39,7 @@ body {
 	min-height: 100vh;
 	scroll-behavior: smooth;
 	font-size: 12px;
-	line-height: 140%;
+	line-height: normal;
 }
 
 ul {

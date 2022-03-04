@@ -83,8 +83,9 @@ export const StyledSNXIcon = styled(CurrencyIcon)`
 `;
 
 export const Column = styled.div`
-	padding: 20px 24px 18px 24px;
+	padding: 15px 18px 19px 18px;
 	outline: 1px solid #353333;
+	min-width: 350px;
 `;
 
 export const SplitColumn = styled.div<{ $isLast?: boolean }>`
@@ -96,9 +97,12 @@ export const SplitColumn = styled.div<{ $isLast?: boolean }>`
 	${(props) => !props.$isLast && css``}
 
 	& > div {
-		padding: 20px 24px 18px 24px;
+		padding: 15px 24px 18px 18px;
 		height: 50%;
 		min-height: 95px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
 	& > div:last-child {

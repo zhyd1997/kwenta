@@ -41,13 +41,12 @@ const RewardsBody = styled.div`
 `;
 
 const StyledDescription = styled(Description)`
-	margin-bottom: 18px;
+	margin: 5px 0 18px;
 `;
 
 const RewardsHeading = styled(Text.Heading)`
 	color: ${(props) => props.theme.colors.common.primaryGold};
-	margin-bottom: 8px;
-	margin-left: 8px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	font-family: ${(props) => props.theme.fonts.bold};
 	font-size: 13px;

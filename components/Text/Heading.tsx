@@ -21,7 +21,6 @@ const Heading: React.FC<HeadingProps> = ({ variant = 'h1', children, className }
 };
 
 const commonStyles = css`
-	line-height: 1.4;
 	letter-spacing: 0.2px;
 	margin: 0;
 	color: ${(props) => props.theme.colors.common.primaryWhite};
