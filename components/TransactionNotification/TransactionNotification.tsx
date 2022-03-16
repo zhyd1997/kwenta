@@ -55,12 +55,16 @@ const IconContainer = styled(FlexDivRowCentered)`
 	margin-right: 12px;
 `;
 
-const TransactionInfo = styled(FlexDivCol)``;
+const TransactionInfo = styled(FlexDivCol)`
+	color: ${(props) => props.theme.colors.common.primaryWhite};
+	font-family: ${(props) => props.theme.fonts.regular };
+`;
+
 const TransactionInfoBody = styled.div<{ isFailureMessage?: boolean }>`
 	${(props) =>
 		props.isFailureMessage &&
 		css`
-			color: ${(props) => props.theme.colors.elderberry};
+			color: ${(props) => props.theme.colors.common.primaryWhite};
 		`}
 `;
 
