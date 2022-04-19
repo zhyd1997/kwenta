@@ -5,6 +5,7 @@ const gitRevision = require('child_process')
 	.trim();
 
 module.exports = {
+	reactStrictMode: true,
 	env: {
 		GIT_HASH_ID: gitRevision,
 	},
@@ -48,6 +49,6 @@ module.exports = {
 				destination: '/dashboard',
 				permanent: true,
 			},
-		]
+		];
 	},
 };
