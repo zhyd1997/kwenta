@@ -43,33 +43,33 @@ type PriceChartProps = {
 
 export const SimpleSlider = () => {
 	var settings = {
-	  dots: true,
+		dots: true,
 	};
 	return (
-	<SliderContainer>
-	  <StyledSlider {...settings}>
-		<div>
-            <img src="http://placekitten.com/g/400/200" />		
-		</div>
-		<div>
-			<img src="http://placekitten.com/g/400/200" />		
-		</div>
-		<div>
-			<img src="http://placekitten.com/g/400/200" />		
-		</div>
-		<div>
-			<img src="http://placekitten.com/g/400/200" />		
-		</div>
-		<div>
-			<img src="http://placekitten.com/g/400/200" />		
-		</div>
-		<div>
-			<img src="http://placekitten.com/g/400/200" />	
-		</div>
-	  </StyledSlider>
-	</SliderContainer>
+		<SliderContainer>
+			<StyledSlider {...settings}>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+				<div>
+					<img src="http://placekitten.com/g/400/200" />
+				</div>
+			</StyledSlider>
+		</SliderContainer>
 	);
-  }
+};
 
 export const PriceChart = ({ asset }: PriceChartProps) => {
 	const chartRef = useRef('0');
