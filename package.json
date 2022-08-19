@@ -31,7 +31,7 @@
 		"@metamask/detect-provider": "1.2.0",
 		"@reach/dialog": "0.15.0",
 		"@synthetixio/contracts-interface": "2.74.1",
-		"@synthetixio/optimism-networks": "2.74.1",
+		"@synthetixio/optimism-networks": "2.74.2",
 		"@synthetixio/providers": "2.74.1",
 		"@synthetixio/queries": "2.74.3",
 		"@synthetixio/transaction-notifier": "2.74.1",
