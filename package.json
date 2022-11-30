@@ -54,7 +54,7 @@
 		"ethcall": "4.7.2",
 		"ethereum-block-by-date": "^1.4.5",
 		"ethers": "5.7.2",
-		"graphql-request": "3.4.0",
+		"graphql-request": "5.0.0",
 		"i18next": "19.7.0",
 		"imagemin-mozjpeg": "^10.0.0",
 		"immer": "9.0.6",
