@@ -60,7 +60,7 @@ jobs:
         run: npm run lint:sarif
 
       - name: Upload lint results
-        uses: github/codeql-action/upload-sarif@4238421316c33d73aeea2801274dd286f157c2bb # pin@codeql-bundle-20220322
+        uses: github/codeql-action/upload-sarif@39d8d7e78f59cf6b40ac3b9fbebef0c753d7c9e5 # pin@codeql-bundle-20220322
         with:
           sarif_file: lint-results.sarif
         continue-on-error: true
